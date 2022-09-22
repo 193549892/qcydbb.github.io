@@ -1,0 +1,125 @@
+	body   {
+    background-image: url(https://s.cn.bing.net/th?id=OHR.DolbadarnCastle_ZH-CN5397592090_1920x1080.jpg&rf=LaDigue_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    font-family: "΢微软雅黑";
+}
+
+p {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 43, 43);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    float:left;
+    border-right: 1px solid #bbb;
+}
+
+li a{
+    display: block;
+    color: #dddddd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:link{
+    color:rgb(250, 250, 250);
+}
+
+li a:visited{
+    color:rgb(250, 250, 250);
+}
+
+li a:hover{
+    color:rgb(0, 166, 207);
+}
+
+li a:active{
+    color:rgb(0, 0, 0);
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #4CAF50;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.wordh {
+    color: rgb(256,256,256);
+    background-blend-mode: color;
+    background-color: rgba(240, 255, 255,0.35);
+    width: fit-content;
+    text-align: center;
+    padding-inline-start: 70px;
+}
+
+.wordspace {
+    padding-block-start: 128px;
+    background-color: rgba(0,0,0,0);
+}
+
+.wordspace2 {
+    padding-block-start: 70px;
+    background-color: rgba(0,0,0,0);
+}
+
+.wordspace3 {
+    background-color: rgba(0, 195, 255, 0.35);
+    float: left;
+    font-size: 48px;
+}
+
+.wordp1 {
+    width: 40%;
+    padding-inline-start: 1%;
+    padding-inline-end: 0%;
+    background-color: rgba(240, 248, 255,0.2);
+    display: inline-block;
+    text-align: justify;
+}
+
+.wordp2 {
+    padding: 14px 16px;
+	float: left;
+    background-color: rgba(240, 248, 255,0.2);
+    display: block;
+    text-align: center;
+	text-decoration: none;
+}
+
+.wordp2:link {
+    color:rgb(250, 250, 250);
+}
+
+.wordp2:visited {
+    color:rgb(250, 250, 250);
+}
+
+.wordp2:hover {
+    color:rgb(0, 166, 207);
+}
+
+.wordp2:active {
+    color:rgb(0, 0, 0);
+}
